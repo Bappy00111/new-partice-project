@@ -2,6 +2,8 @@ import React from "react";
 import Card from "./components/Card";
 import Marquee from "react-fast-marquee";
 import Peralex from "./components/peralax/Peralex";
+import Heart from "./components/Heart";
+import Background from "./components/Background";
 
 const App = () => {
   const profiles = [
@@ -59,7 +61,9 @@ const App = () => {
 
   return (
     <>
-      <Peralex/>
+      {/* <Peralex/> */}
+      <Heart/>
+      {/* <Background/> */}
     </>
     // <Marquee>
     //   <div className="m-5 flex gap-8">
