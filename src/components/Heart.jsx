@@ -55,7 +55,7 @@ const Heart = () => {
     // </div>
     <div
       className="relative h-48 overflow-y-auto"
-      onScroll={() => console.log("hello")}
+      onScroll={() => console.log("hello world")}
     >
       <div className="absolute inset-0 flex items-center justify-center">
         <img
