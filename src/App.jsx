@@ -4,6 +4,7 @@ import Marquee from "react-fast-marquee";
 import Peralex from "./components/peralax/Peralex";
 import Heart from "./components/Heart";
 import Background from "./components/Background";
+import OurProject from "./components/OurProject";
 
 const App = () => {
   const profiles = [
@@ -62,8 +63,9 @@ const App = () => {
   return (
     <>
       {/* <Peralex/> */}
-      {/* <Heart/> */}
-      <Background/>
+      {/* <Heart/>
+      <Background/> */}
+      <OurProject/>
     </>
     // <Marquee>
     //   <div className="m-5 flex gap-8">

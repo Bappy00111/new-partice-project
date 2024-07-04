@@ -1,14 +1,60 @@
 import React from "react";
-import './Background.css'
+import { CiHeart } from "react-icons/ci";
+import { BiMessageRounded } from "react-icons/bi";
 
 const Background = () => {
   return (
-    <div className="container h-screen">
-      <div className="horijontal">
+    <div className="parent h-screen">
+      <div className="big relative group overflow-hidden">
         <img
           src="https://scontent-fra5-1.cdninstagram.com/v/t51.29350-15/441385787_413933158079260_4353445316277615202_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=zXD_bcNYVuQQ7kNvgEOLazr&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AYDhkJBe4lWPb64BllZK-kmjUa18QwDTCcGhDCgmIWPMSw&oe=668A962F"
           alt=""
+           className="w-full h-auto transition-transform duration-300 transform group-hover:scale-110"
         />
+        <div className="hover:bg-black hover:bg-opacity-70 absolute inset-0 flex justify-center">
+          <div className=" text-white hidden group-hover:block text-center pt-2">
+            <p className="text-sm font-bold underline tracking-wide">
+              anima res
+            </p>
+            <p className="text-lg font-bold tracking-wide">Exciting News! 🏆 Our app #InsightHeart on Apple</p>
+            <div className="absolute bottom-0 left-0 right-0 mb-4 flex gap-2 justify-center ">
+                <span className="flex justify-center items-center gap-2">
+                <CiHeart className="w-8 h-8" />
+                <p>5</p>
+                </span>
+                <span className="flex justify-center items-center gap-2 ">
+                <BiMessageRounded className="w-8 h-8" />
+                <p>5</p>
+                </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className=" relative group overflow-hidden">
+        <img
+          src="https://scontent-fra3-1.cdninstagram.com/v/t51.29350-15/436877996_939400614859117_5519978415319450757_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=18de74&_nc_ohc=U5rj5T7oHuoQ7kNvgE3XznQ&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AYAiHBkyRpu7AjD3F4CvZ07E-Fq0CTfVak_r4NpIRdXucg&oe=668A8285"
+
+          alt=""
+           className="w-full h-auto transition-transform duration-300 transform group-hover:scale-110"
+        />
+        <div className="hover:bg-black hover:bg-opacity-70 absolute inset-0 flex justify-center">
+          <div className=" text-white hidden group-hover:block text-center pt-2">
+            <p className="text-sm font-bold underline tracking-wide">
+              anima res
+            </p>
+            <p className="text-lg font-bold tracking-wide">Exciting News! 🏆 Our app #InsightHeart on Apple</p>
+            <div className="absolute bottom-0 left-0 right-0 mb-4 flex gap-2 justify-center ">
+                <span className="flex justify-center items-center gap-2">
+                <CiHeart className="w-8 h-8" />
+                <p>5</p>
+                </span>
+                <span className="flex justify-center items-center gap-2 ">
+                <BiMessageRounded className="w-8 h-8" />
+                <p>5</p>
+                </span>
+            </div>
+          </div>
+        </div>
       </div>
       <div>
         <img
@@ -40,7 +86,7 @@ const Background = () => {
           alt=""
         />
       </div>
-     
+
       <div>
         <img
           src="https://scontent-fra5-2.cdninstagram.com/v/t51.29350-15/403970720_1810635616042320_463362421316360022_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=18de74&_nc_ohc=oPHPfO7yCIsQ7kNvgG7vDtJ&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AYBNuiLrsf1l2uALnszlVEzVoKqE4Pky4KLvOT18_XU64w&oe=668A7F14"
@@ -53,7 +99,7 @@ const Background = () => {
           alt=""
         />
       </div>
-      <div className="horijontal">
+      <div className="big">
         <img
           src="https://scontent-fra3-2.cdninstagram.com/v/t51.29350-15/405496593_879615903874199_5334924572920357512_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=18de74&_nc_ohc=xIL5oJQCmukQ7kNvgGn8dgd&_nc_ht=scontent-fra3-2.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AYBkE-dLouUhyfwF3lM-gDNMXNuAbAED_9QxhLj1En4huA&oe=668A799C"
           alt=""
@@ -77,7 +123,7 @@ const Background = () => {
           alt=""
         />
       </div>
-      <div className="horijontal">
+      <div className="big">
         <img
           src="https://scontent-fra3-1.cdninstagram.com/v/t51.36329-15/356891081_7175944352433105_425663536221845925_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=18de74&_nc_ohc=WnQyaMhPKAEQ7kNvgE7sgGH&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AYDU50Pz-3fLUrEX84OmQ-W3beobjTCH-kQ7aUapD5Twtg&oe=668A8980"
           alt=""
@@ -101,37 +147,37 @@ const Background = () => {
           alt=""
         />
       </div>
-      <div>
+      <div className="horijontal">
         <img
           src="https://scontent-fra5-2.cdninstagram.com/v/t51.36329-15/315764969_136070532553664_7336372333487669836_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=18de74&_nc_ohc=SbpY0l4aiIYQ7kNvgEHjuPI&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AYArJV6OekzRjahzuXXp3mieERjCD6tV1pHJC3vTmqMiAw&oe=668A95F3"
           alt=""
         />
       </div>
-      <div>
+      <di>
         <img
           src="https://scontent-fra5-2.cdninstagram.com/v/t51.29350-15/311189396_443042937811962_4764358567117681894_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=18de74&_nc_ohc=ojGqS41FrNQQ7kNvgGldTO2&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AYCqRfu7GVAPK7UBb6s7LHaMl6msCLFAJWuwIMFqo8015g&oe=668A7B6D"
           alt=""
         />
-      </div>
-      <div>
+      </di>
+      <div className="vartical">
         <img
           src="https://scontent-fra3-1.cdninstagram.com/v/t51.36329-15/281478615_982905782425054_6618193101229271400_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=18de74&_nc_ohc=5mV_aPK6GKUQ7kNvgGlTHX8&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AYAvKHg0qRpiodjFcsJc0XmAFgQhTMvZHNxIvav-4iIs7w&oe=668A9F27"
           alt=""
         />
       </div>
-      <div>
+      <div className="horijontal">
         <img
           src="https://scontent-fra5-1.cdninstagram.com/v/t51.29350-15/315236048_5808169242539848_3871631485292020938_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=18de74&_nc_ohc=7A8gUbYIhwgQ7kNvgFCyJve&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AYDGIaZwdviRz_DtwGwapHQFIoHGqmzqLEO-MEzdi66dHQ&oe=668A95D0"
           alt=""
         />
       </div>
-      <div >
+      <div>
         <img
           src="https://scontent-fra3-1.cdninstagram.com/v/t51.29350-15/311595844_893406328312524_9195542118964250321_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=18de74&_nc_ohc=2Ea1oLj7ocAQ7kNvgFJERqv&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AYBnwFrmFSfJ32pSrVRDskL5SWGQBhNNrWGKk0xnanEnJw&oe=668AAA35"
           alt=""
         />
       </div>
-      <div>
+      <div className="vartical">
         <img
           src="https://scontent-fra5-2.cdninstagram.com/v/t51.29350-15/311595384_1262063837918838_695799818354951616_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=18de74&_nc_ohc=DdCMpIzWxgMQ7kNvgFefCgt&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AYD5UxwqJsaUXyfOegnnk3BvwClCho-Ms2xDT4T1tiKuOQ&oe=668A7CE2"
           alt=""
