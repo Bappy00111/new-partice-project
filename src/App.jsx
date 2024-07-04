@@ -62,8 +62,8 @@ const App = () => {
   return (
     <>
       {/* <Peralex/> */}
-      <Heart/>
-      {/* <Background/> */}
+      {/* <Heart/> */}
+      <Background/>
     </>
     // <Marquee>
     //   <div className="m-5 flex gap-8">
