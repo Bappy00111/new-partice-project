@@ -1,9 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:"Signika Negative", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Signika Negative", sans-serif;
 }
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+  @apply  mx-auto sm:max-w-xl  md:max-w-full lg:max-w-screen-xl;
+}
