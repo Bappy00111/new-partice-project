@@ -5,6 +5,7 @@ import Banner from "./components/Banner";
 import Content from "./components/Content";
 import AnimaImg from "./components/AnimaImg";
 import PeralalImg from "./components/PeralalImg";
+import OurProject from "./components/OurProject";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Content />
       <PeralalImg/>
       <AnimaImg/>
+      <OurProject/>
     </>
   );
 };

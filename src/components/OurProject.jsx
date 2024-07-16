@@ -66,22 +66,22 @@ const OurProject = () => {
 
   return (
     <div className="my-10 ">
-      <h1 className="text-5xl font-bold py-10 text-center font-[inter]">
+      <h1 className="text-4xl font-bold py-10 text-center font-[inter]">
         Take a look at some of our projects
       </h1>
-      <div className="grid grid-cols-6 grid-flow-dense ">
+      <div className="grid grid-cols-5 grid-flow-dense py-5 ">
        
-        {images.map((image, index) => (
+        {images.map((image) => (
           <div
             key={image?.id}
-            className={`${image?.size=='big'?'row-span-2 col-span-2':image.size=='horijontal'?'col-span-2':""} overflow-hidden bg-slate-800 relative group`}
+            className={`${image?.size=='big'?'row-span-2 col-span-2':image.size=='horijontal'?'col-span-2':""} overflow-hidden bg-slate-800 relative group w-full` }
           >
             <img
-              className="transition duration-150 ease-out hover:translate-x-10 hover:translate-y-10 z-10 h-full w-full"
+              className="transition duration-1000 ease-out hover:translate-x-14 hover:translate-y-10 z-10  w-full"
               src={image?.url}
               alt=""
             />
-            <h1 className="hidden group-hover:flex absolute top-1 left-1 text-white">
+            <h1 className="hidden group-hover:flex absolute top-1 left-1 text-white p-4">
               {image?.tittle}
             </h1>
           </div>
