@@ -203,7 +203,7 @@ const AnimaImg = () => {
   // console.log(data);
 
   return (
-    <div className="grid grid-cols-4 grid-flow-dense">
+    <div className="grid grid-cols-1 md:grid-cols-4 grid-flow-dense">
       {datas.map((data,index) => (
         <div key={index} className="relative group overflow-hidden">
           <img

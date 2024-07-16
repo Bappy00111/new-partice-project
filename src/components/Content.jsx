@@ -2,7 +2,7 @@ import React from "react";
 
 const Content = () => {
   return (
-    <div className="container flex gap-10 py-24">
+    <div className="container md:flex gap-10 py-10 md:py-24 px-4 space-y-3">
       <div className="space-y-5">
         <h3 className="text-4xl font-medium">Global leader in Medical AR / VR</h3>
         <p  className="space-y-4">

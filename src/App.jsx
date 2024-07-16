@@ -11,11 +11,13 @@ const App = () => {
   return (
     <>
       <Header />
-      <Banner />
+      
+        <Banner />
+      
       <Content />
-      <PeralalImg/>
-      <AnimaImg/>
-      <OurProject/>
+      <PeralalImg />
+      <AnimaImg />
+      <OurProject />
     </>
   );
 };

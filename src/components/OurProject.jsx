@@ -69,7 +69,7 @@ const OurProject = () => {
       <h1 className="text-4xl font-bold py-10 text-center font-[inter]">
         Take a look at some of our projects
       </h1>
-      <div className="grid grid-cols-5 grid-flow-dense py-5 ">
+      <div className="grid grid:cols-1 md:grid-cols-5 grid-flow-dense py-5 ">
        
         {images.map((image) => (
           <div
