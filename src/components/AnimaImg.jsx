@@ -204,8 +204,8 @@ const AnimaImg = () => {
 
   return (
     <div className="grid grid-cols-4 grid-flow-dense">
-      {datas.map((data) => (
-        <div className="relative group overflow-hidden">
+      {datas.map((data,index) => (
+        <div key={index} className="relative group overflow-hidden">
           <img
             className="h-96  w-full transition-transform duration-300 transform group-hover:scale-110"
             src={data.image}
