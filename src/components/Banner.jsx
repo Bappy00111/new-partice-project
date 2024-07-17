@@ -78,18 +78,21 @@ const Banner = () => {
             onMouseLeave={handleMouseLeave}
           >
             <div
-              className="relative w-ful h-full bg-no-repeat bg-center bg-cover "
+              className="relative w-ful h-full bg-no-repeat bg-center "
               style={{ backgroundImage: `url(${img.backgroundImg})` }}
             >
+              <div
+                className="h-full  w-full bg-center"
+                style={{ backgroundImage: `url(${img.relativeImg[1]}) ` }}
+              ></div>
               <img
-                className="absolute inset-0 w-[300px] md:w-[400px] md:ml-40 "
+                className="absolute inset-0 w-[300px] md:w-2/6 md:ml-20 "
                 src={img.relativeImg[0]}
                 alt=""
                 style={{
                   transform: `translate(${transform.x}px, ${transform.y}px)`,
                 }}
               />
-           
             </div>
           </SwiperSlide>
         ))}
