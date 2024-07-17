@@ -5,12 +5,12 @@ const PeralalImg = () => {
   return (
     <div className=" overflow-x-hidden overflow-y-auto ">
     <div
-      className="min-h-screen relative bg-fixed bg-cover bg-no-repeat bg-center"
+      className="min-h-screen relative bg-fixed bg-cover bg-no-repeat bg-center "
       style={{ backgroundImage: `url(${hartImg})` }}
     >
       <div className=" absolute inset-0 ">
         <div className=" text-white text-center">
-          <h2 className="text-2xl md:text-4xl  md:py-32 font-bold tracking-wide">
+          <h2 className="text-2xl md:text-4xl  md:py-32 font-bold tracking-wide  py-5">
             Recognized expert for
           </h2>
           <div className="md:flex flex-wrap justify-center gap-20">
